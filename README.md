@@ -62,3 +62,6 @@
 ├── alb.tf           # ALB 구성
 ├── rds.tf           # RDS 구성
 └── autoscaling.tf   # Auto Scaling 구성
+
+## 📄 발표 자료
+[프로젝트 발표 자료 보기](./aws-infra-automation-terraform.pdf)
