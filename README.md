@@ -63,5 +63,13 @@
 ├── rds.tf           # RDS 구성
 └── autoscaling.tf   # Auto Scaling 구성
 
+## Python 스크립팅
+
+`plan_summary.py`는 `terraform plan` 결과를 파싱해서 생성/변경/교체/삭제될 리소스를 종류별로 요약해서 보여주는 스크립트입니다. 리소스가 많아지면 plan 원본 출력이 길어져 한눈에 파악하기 어려워지는 문제를 보완하기 위해 작성했습니다.
+
+\`\`\`
+python3 plan_summary.py
+\`\`\`
+
 ## 📄 발표 자료
 [프로젝트 발표 자료 보기](./aws-infra-automation-terraform.pdf)
