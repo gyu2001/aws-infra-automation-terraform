@@ -80,7 +80,7 @@ resource "aws_db_instance" "terraform-mariadb-rds" {
   instance_class       = "db.t3.micro"
   db_name              = "terraform_mariadb_rds" # 영문자로 시작해야 하며 영문자와 숫자, _만 가능
   username             = "root"
-  password             = "var.db_password" # 8자 이상, 영문 대소문자, 숫자 및 특수 문자를 혼합하여 사용
+  password             = var.db_password # 8자 이상, 영문 대소문자, 숫자 및 특수 문자를 혼합하여 사용
   parameter_group_name = "terraform-mariadb-parameter-group"
   skip_final_snapshot  = true
   #multi_az               = true

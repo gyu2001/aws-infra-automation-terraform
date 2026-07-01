@@ -1,3 +1,3 @@
-resource "aws_s3_bucket" "kdj-2026-demo" {
-  bucket = "kdj-2026-demo"
+resource "aws_s3_bucket" "gyu2001-terraform-history" {
+  bucket = "gyu2001-terraform-history"
 }
