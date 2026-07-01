@@ -20,7 +20,7 @@
 
 ## 🛠 Tech Stack
 
-`Terraform` ` `GitHub` `AWS CLI` `Nginx` `Amazon RDS (MariaDB)`
+`Terraform` `GitHub` `AWS CLI` `Nginx` `Amazon RDS (MariaDB)`
 
 ---
 
