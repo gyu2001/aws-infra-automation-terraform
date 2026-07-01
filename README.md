@@ -8,9 +8,6 @@
 [ GitHub Repository ]
 │
 ▼
-[ HCP Terraform ]
-│
-▼
 [ AWS Provider ]
 /       
 [ VPC ]   [ ALB ]
@@ -23,7 +20,7 @@
 
 ## 🛠 Tech Stack
 
-`Terraform` `HCP Terraform` `GitHub` `AWS CLI` `Nginx` `Amazon RDS (MariaDB)`
+`Terraform` ` `GitHub` `AWS CLI` `Nginx` `Amazon RDS (MariaDB)`
 
 ---
 
@@ -34,7 +31,6 @@
 - Public/Private 서브넷 구조 기반 VPC, ALB, Auto Scaling, RDS 코드화
 
 ### 2. CI/CD 파이프라인 구성
-- HCP Terraform과 GitHub 연동으로 코드 변경 시 자동 배포
 - 수동 콘솔 작업 없이 CLI 프로비저닝으로 배포 자동화
 
 ### 3. 재사용성 확보
