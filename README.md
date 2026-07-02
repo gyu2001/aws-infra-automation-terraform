@@ -6,7 +6,7 @@
 
 ## Architecture
 
-GitHub 리포지토리의 Terraform 코드를 AWS Provider가 읽어들여 인프라를 생성합니다. VPC 안에 EC2가 배치되고, ALB 뒤에서 Auto Scaling으로 관리되는 EC2 인스턴스들이 트래픽을 분산 처리하며, 이 인스턴스들은 RDS(MariaDB)와 연결됩니다.
+![Architecture](/architecture.svg)
 
 ---
 
