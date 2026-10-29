@@ -66,3 +66,11 @@
 `plan_summary.py`는 `terraform plan` 결과를 파싱해서 생성/변경/교체/삭제될 리소스를 종류별로 요약해서 보여주는 스크립트입니다. 리소스가 많아지면 plan 원본 출력이 길어져 한눈에 파악하기 어려워지는 문제를 보완하기 위해 작성했습니다.
 
     python3 plan_summary.py
+
+## 개선할 점
+
+| 현재 | 개선 방향 |
+|---|---|
+| state 파일을 로컬에 저장 | S3 + DynamoDB 원격 backend로 옮겨 팀이 같은 state를 쓰고 동시 실행을 잠금 |
+| 리소스별 파일만 분리 | VPC·ALB·ASG 등을 모듈로 나눠 다른 환경에서도 재사용 |
+| AMI ID를 코드에 직접 입력 | data source로 최신 AMI를 조회하도록 변경 |
